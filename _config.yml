@@ -1,24 +1,19 @@
 # Site settings
-title: PHOTORAMA
+title: SWISS MOCEAN
 email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+description: "Swiss Mocean"
+url: "https://swissmocean.github.io"
+baseurl: "/swissmocean"
+facebook_username: "swissmocean"
+instagram_username: "swissmocean"
 share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   swissmocean
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: Official website for Swiss Mocean
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -27,15 +22,16 @@ owner:
 # Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
 #
 comments :
-  provider : disqus
-  disqus :
-    short_name : ""
+  provider : Facebook Comments
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - NEWS: "https://swissmocean.github.io/swissmocean/news/"
+  - FAQ: "https://swissmocean.github.io/swissmocean/faq/"
+  - STORY: "https://swissmocean.github.io/swissmocean/story/"
+  - GALLERIE: "https://swissmocean.github.io/swissmocean/gallerie/"
+  - SUPPORT: "https://swissmocean.github.io/swissmocean/support/"
+  - PR&AumlSENTATIONEN: "https://swissmocean.github.io/swissmocean/praesentationen/"
 
 # All translation keys
 translations:

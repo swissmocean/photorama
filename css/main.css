@@ -1,7 +1,7 @@
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Gotham-Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
-  color: #eee;
+  color: white;
   background-color: #000;
 }
 p {
@@ -11,14 +11,22 @@ p {
 p a {
   text-decoration: none;
 }
-h1,
+h1 {
+  font-family: 'DIN-1451', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0px 0px 10px #000000;
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Gotham-Book', Helvetica, Arial, sans-serif;
   font-weight: 800;
+  color: white;
+  text-shadow: 0px 0px 2px #000000;
 }
 a {
   color: #760824;
@@ -53,7 +61,7 @@ hr.small {
   top: 0;
   left: 0;
   width: 100%;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'DIN-1451', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
@@ -61,29 +69,34 @@ hr.small {
 .navbar-custom .nav li a {
   color: white;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 800;
   letter-spacing: 1px;
+}
+@font-face {
+    font-family: DIN-1451;
+    src: url("../fonts/DIN-1451.ttf") format("truetype");
+}
+@font-face {
+    font-family: Gotham-Bold;
+    src: url("../fonts/Gotham-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: Gotham-Book;
+    src: url("../fonts/Gotham-Book.otf") format("opentype");
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
     border-bottom: 1px solid transparent;
   }
-  .navbar-custom .navbar-brand {
-    color: white;
-    padding: 20px;
-  }
-  .navbar-custom .navbar-brand:hover,
-  .navbar-custom .navbar-brand:focus {
-    color: #0085a1;
-  }
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
+    text-shadow: 0px 0px 2px #000000;
   }
   .navbar-custom .nav li a:hover{
-    color: #0085a1;
+    color: #45d3fd;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -169,7 +182,7 @@ hr.small {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Gotham-Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
   text-shadow: 1px 1px 4px #000;
@@ -211,7 +224,7 @@ hr.small {
   }
   .intro-header .post-heading .subheading {
     font-size: 30px;
-    text-shadow: 1px 1px 4px #000;
+    text-shadow: 1px 1px 4px #000000;
   }
 }
 .post-preview > a {
